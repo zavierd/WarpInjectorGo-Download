@@ -13,14 +13,14 @@
 ## 🚀 快速开始
 
 ### Windows 用户
-1. [下载 Windows 版本](https://github.com/zavierd/WarpInjectorGo/releases/latest/download/warp-injector-windows-amd64.zip)
+1. [下载 Windows 版本](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/warp-injector-windows-amd64.zip)
 2. 解压并以管理员身份运行
 3. 按照界面提示操作
 
 ### macOS 用户
 1. 下载对应版本：
-   - [Intel 芯片](https://github.com/zavierd/WarpInjectorGo/releases/latest/download/warp-injector-macos-intel.tar.gz)
-   - [Apple Silicon (M1/M2/M3)](https://github.com/zavierd/WarpInjectorGo/releases/latest/download/warp-injector-macos-m1.tar.gz)
+   - [Intel 芯片](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/warp-injector-macos-intel.tar.gz)
+   - [Apple Silicon (M1/M2/M3)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/warp-injector-macos-m1.tar.gz)
 2. 解压并移除隔离属性
 3. 启动程序
 
