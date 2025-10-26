@@ -58,17 +58,29 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 
 ### macOS Intel 版本
 
-[![下载 macOS Intel](https://img.shields.io/badge/macOS_Intel-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel.dmg)
+#### macOS 13+ 用户
 
-**下载地址**（自动获取最新版）：
+[![下载 macOS Intel](https://img.shields.io/badge/macOS_13+-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel.dmg)
+
+**下载地址**：
 ```
 https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel.dmg
 ```
 
-**说明**: 
-- 文件名: `WarpClient-macOS-Intel.dmg`
-- 适用于 **macOS 13.0+** (Intel 芯片)
-- macOS 12 及以下请看 Q1 或 Q8
+**适用于**: macOS 13.0+ (Intel 芯片)
+
+---
+
+#### macOS 12 用户
+
+[![下载 macOS 12](https://img.shields.io/badge/macOS_12-下载-gray?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel-macOS12.dmg)
+
+**下载地址**：
+```
+https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel-macOS12.dmg
+```
+
+**适用于**: macOS 12.x 及以下 (Intel 芯片)
 
 **新特性**：
 - 🌟 **专业 DMG 安装器** - 双击挂载，拖拽安装
@@ -83,10 +95,6 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 └── 使用说明.txt            # 简洁使用指南
 ```
 
-**系统要求**：
-- ✅ macOS 13.0+ (Intel 芯片)
-- ⚠️ macOS 12 及以下：加入 QQ 群获取兼容版本（群号：1067109752）
-- 首次运行可能需要右键 → 打开
 
 ---
 
@@ -164,14 +172,14 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 
 ---
 
-### macOS 用户（新安装方式）
+### macOS 用户
 
-#### 1. 下载 DMG
+#### 1. 下载对应的 DMG
 
-根据你的系统选择：
+**根据你的系统选择**：
 - **macOS 13+, Intel 芯片**: `WarpClient-macOS-Intel.dmg`
 - **macOS 11+, M 芯片**: `WarpClient-macOS-M1.dmg`
-- **macOS 12 及以下**: 加入 QQ 群 **1067109752** 获取 `WarpClient-macOS-Intel-macOS12.dmg`
+- **macOS 12 及以下, Intel 芯片**: `WarpClient-macOS-Intel-macOS12.dmg`
 
 #### 2. 打开 DMG
 ```bash
@@ -261,11 +269,13 @@ xattr -d com.apple.quarantine /Applications/WarpClient.app
 
 ## 🔧 常见问题
 
-### Q1: macOS 12 及以下版本如何获取？
-**A**: 加入 QQ 群获取兼容版本
-- 群号：**1067109752**
-- 提供 macOS 10.13 - 12.x 兼容版本
-- 或联系管理员单独获取
+### Q1: 如何选择正确的 macOS 版本？
+**A**: 查看你的系统版本（系统偏好设置 → 关于本机）
+- **macOS 13.0+, Intel**: 下载 `WarpClient-macOS-Intel.dmg`
+- **macOS 11.0+, M 芯片**: 下载 `WarpClient-macOS-M1.dmg`
+- **macOS 12 及以下, Intel**: 下载 `WarpClient-macOS-Intel-macOS12.dmg`
+
+所有版本都在 Release 页面直接下载，无需加群
 
 ### Q2: macOS 提示"无法打开"或"不能与此版本的macOS配合使用"？
 **A**: 首次打开需要：
@@ -308,11 +318,12 @@ rm -rf /Applications/WarpClient.app
 ### Q7: 许可证过期了怎么办？
 **A**: 点击"刷新有效期"按钮，同步管理员延期的最新状态
 
-### Q8: 如何获取 macOS 12 兼容版本？
+### Q8: macOS 12 版本和 macOS 13 版本有什么区别？
 **A**: 
-- 加入 QQ 群：**1067109752**
-- 群文件中提供 `WarpClient-macOS-Intel-macOS12.dmg`
-- 适用于 macOS 10.13 - 12.x
+- **macOS12 版本**: 兼容 macOS 10.13 - 12.x（老系统专用）
+- **macOS 13 版本**: 只支持 macOS 13.0+（新系统优化）
+- 功能完全一样，只是系统兼容性不同
+- 下载时根据自己的系统版本选择
 
 ### Q9: Windows 图标显示问题？
 **A**: v3.0.0+ 版本已内嵌图标，如果看不到：

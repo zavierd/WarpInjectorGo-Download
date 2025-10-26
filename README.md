@@ -19,8 +19,9 @@
 
 ### macOS 用户
 1. 下载对应版本：
-   - [Intel 芯片 DMG](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest) - 专业安装器
-   - [Apple Silicon DMG](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest) - M1/M2/M3/M4
+   - [Intel 芯片 (macOS 13+)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel.dmg)
+   - [Intel 芯片 (macOS 12)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel-macOS12.dmg)
+   - [Apple Silicon (M1/M2/M3/M4)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-M1.dmg)
 2. 双击 DMG，拖拽到 Applications
 3. 右键打开（首次）
 
@@ -38,8 +39,8 @@
 
 **系统要求**:
 - Windows: 10/11 (64位)
-- macOS: 13.0+ (Intel 或 Apple Silicon)
-- macOS 12 及以下: QQ 群获取（1067109752）
+- macOS Intel: 提供 13+ 和 12 两个版本
+- macOS M芯片: 11.0+ (原生 ARM 支持)
 
 ---
 
