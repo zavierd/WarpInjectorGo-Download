@@ -1,6 +1,6 @@
 # 📥 Warp Token Injector - 下载页面
 
-> 最新版本：**v3.0.0** | 更新时间：2025-10-26
+> [![最新版本](https://img.shields.io/github/v/release/zavierd/WarpInjectorGo-Download)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest) | [![下载次数](https://img.shields.io/github/downloads/zavierd/WarpInjectorGo-Download/total)](https://github.com/zavierd/WarpInjectorGo-Download/releases)
 
 ## 🎉 v3.0.0 现代化打包系统
 
@@ -30,15 +30,16 @@
 
 [![下载 Windows 版本](https://img.shields.io/badge/Windows-下载-blue?style=for-the-badge&logo=windows)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest)
 
-**下载地址**：
+**下载地址**（自动获取最新版）：
 ```
+# 方式 1: 直接下载（文件名不带版本号）
 https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-Windows.zip
+
+# 方式 2: 访问 Release 页面选择版本
+https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 ```
 
-**或使用版本号**：
-```
-https://github.com/zavierd/WarpInjectorGo-Download/releases/download/v3.0.0/WarpClient-Windows-v3.0.0.zip
-```
+**说明**: 使用 `latest` 链接会自动下载最新版本，无需手动更新链接
 
 **新特性**：
 - 🌟 **带炫酷图标的 EXE**
@@ -55,15 +56,16 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/download/v3.0.0/Warp
 
 [![下载 macOS Intel](https://img.shields.io/badge/macOS_Intel-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest)
 
-**下载地址**：
+**下载地址**（自动获取最新版）：
 ```
+# 方式 1: 直接下载
 https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel.dmg
+
+# 方式 2: 访问 Release 页面
+https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 ```
 
-**或使用版本号**：
-```
-https://github.com/zavierd/WarpInjectorGo-Download/releases/download/v3.0.0/WarpClient-macOS-Intel-v3.0.0.dmg
-```
+**说明**: 使用 `latest` 链接会自动下载最新版本，无需手动更新链接
 
 **新特性**：
 - 🌟 **专业 DMG 安装器** - 双击挂载，拖拽安装
@@ -80,15 +82,16 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/download/v3.0.0/Warp
 
 [![下载 macOS M1/M2](https://img.shields.io/badge/macOS_M1/M2/M3-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest)
 
-**下载地址**：
+**下载地址**（自动获取最新版）：
 ```
+# 方式 1: 直接下载
 https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-M1.dmg
+
+# 方式 2: 访问 Release 页面
+https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 ```
 
-**或使用版本号**：
-```
-https://github.com/zavierd/WarpInjectorGo-Download/releases/download/v3.0.0/WarpClient-macOS-M1-v3.0.0.dmg
-```
+**说明**: 使用 `latest` 链接会自动下载最新版本，无需手动更新链接
 
 **新特性**：
 - 🌟 **专业 DMG 安装器** - 原生 Apple Silicon 支持
@@ -180,6 +183,8 @@ xattr -d com.apple.quarantine /Applications/WarpClient.app
 ---
 
 ## 🆕 版本历史
+
+> 💡 **提示**: 所有下载链接自动指向最新版本，无需手动更新
 
 ### v3.0.0 (2025-10-26) - 现代化打包系统
 
