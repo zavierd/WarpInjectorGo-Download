@@ -44,7 +44,13 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 **新特性**：
 - 🌟 **带炫酷图标的 EXE**
 - 📋 完整版本信息（公司、版权、描述）
-- 📦 便携 ZIP 包（解压即用）
+- 📦 极简打包（只含 exe + 简洁说明）
+
+**ZIP 包内容**：
+```
+├── WarpClient.exe      # 带图标的可执行文件
+└── 使用说明.txt        # 简洁使用指南
+```
 
 **系统要求**：
 - Windows 10/11 (64位)
@@ -71,6 +77,14 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 - 🌟 **专业 DMG 安装器** - 双击挂载，拖拽安装
 - 🍎 标准 .app 应用包
 - 🎨 炫酷应用图标
+- 📦 极简打包（只含必要文件）
+
+**DMG 包内容**：
+```
+├── WarpClient.app          # 应用程序
+├── Applications (快捷方式)  # 拖拽安装用
+└── 使用说明.txt            # 简洁使用指南
+```
 
 **系统要求**：
 - macOS 10.13+ (Intel 芯片)
@@ -98,6 +112,14 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 - 🍎 标准 .app 应用包
 - 🎨 炫酷应用图标
 - ⚡ 原生性能优化
+- 📦 极简打包（只含必要文件）
+
+**DMG 包内容**：
+```
+├── WarpClient.app          # 应用程序
+├── Applications (快捷方式)  # 拖拽安装用
+└── 使用说明.txt            # 简洁使用指南
+```
 
 **系统要求**：
 - macOS 11.0+ (Apple Silicon: M1/M2/M3/M4)
@@ -194,11 +216,19 @@ xattr -d com.apple.quarantine /Applications/WarpClient.app
 - 🪟 Windows 带图标 EXE（完整版本信息）
 - 🏗️ 项目结构重组和清理
 - 📚 完善的构建文档
+- ✨ 极简打包（移除所有冗余文件）
+
+**打包内容简化**:
+- Windows: 只含 `WarpClient.exe` + `使用说明.txt`
+- macOS: 只含 `WarpClient.app` + `Applications` + `使用说明.txt`
+- 移除所有辅助脚本和冗长说明
+- 详细文档在下载页面，避免重复
 
 **破坏性变更**:
 - 文件命名更新：`WarpClient-*.zip/dmg`
 - macOS 改用 DMG（不再是 tar.gz）
 - Windows EXE 嵌入图标和元数据
+- 不再包含辅助脚本（test_cert.bat 等）
 
 ---
 
