@@ -28,7 +28,7 @@
 
 ### Windows 版本
 
-[![下载 Windows 版本](https://img.shields.io/badge/Windows-下载-blue?style=for-the-badge&logo=windows)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest)
+[![下载 Windows 版本](https://img.shields.io/badge/Windows-下载-blue?style=for-the-badge&logo=windows)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-Windows.zip)
 
 **下载地址**（自动获取最新版）：
 ```
@@ -54,7 +54,7 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 
 ### macOS Intel 版本
 
-[![下载 macOS Intel](https://img.shields.io/badge/macOS_Intel-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest)
+[![下载 macOS Intel](https://img.shields.io/badge/macOS_Intel-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel.dmg)
 
 **下载地址**（自动获取最新版）：
 ```
@@ -80,7 +80,7 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 
 ### macOS Apple Silicon 版本
 
-[![下载 macOS M1/M2](https://img.shields.io/badge/macOS_M1/M2/M3-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest)
+[![下载 macOS M1/M2](https://img.shields.io/badge/macOS_M1/M2/M3-下载-black?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-M1.dmg)
 
 **下载地址**（自动获取最新版）：
 ```
