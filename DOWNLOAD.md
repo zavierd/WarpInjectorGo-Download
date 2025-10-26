@@ -265,16 +265,21 @@ xattr -d com.apple.quarantine /Applications/WarpClient.app
 - 提供 macOS 10.13 - 12.x 兼容版本
 - 或联系管理员单独获取
 
-### Q2: Windows 首次启动失败？
-**A**: 必须"以管理员身份运行"，用于安装系统级证书
-
-### Q3: macOS 提示"无法打开"？
+### Q2: macOS 提示"无法打开"或"不能与此版本的macOS配合使用"？
 **A**: 首次打开需要：
+1. **右键 → 打开**（推荐，绕过安全检查）
+2. 或命令行移除隔离属性：
 ```bash
-# 方式 1: 右键 → 打开（推荐）
-# 方式 2: 移除隔离属性
 xattr -d com.apple.quarantine /Applications/WarpClient.app
 ```
+
+**如果仍然提示系统版本不兼容**:
+- 确认你的 macOS 版本（系统偏好设置 → 关于本机）
+- macOS 13+ 下载 Intel 或 M1 版本
+- macOS 12 及以下加入 QQ 群：**1067109752**
+
+### Q3: Windows 首次启动失败？
+**A**: 必须"以管理员身份运行"，用于安装系统级证书
 
 ### Q4: macOS 如何卸载？
 **A**: 
@@ -301,7 +306,13 @@ rm -rf /Applications/WarpClient.app
 ### Q7: 许可证过期了怎么办？
 **A**: 点击"刷新有效期"按钮，同步管理员延期的最新状态
 
-### Q8: Windows 图标显示问题？
+### Q8: 如何获取 macOS 12 兼容版本？
+**A**: 
+- 加入 QQ 群：**1067109752**
+- 群文件中提供 `WarpClient-macOS-Intel-macOS12.dmg`
+- 适用于 macOS 10.13 - 12.x
+
+### Q9: Windows 图标显示问题？
 **A**: v3.0.0+ 版本已内嵌图标，如果看不到：
 - 检查是否下载的最新版本
 - 尝试刷新文件资源管理器
