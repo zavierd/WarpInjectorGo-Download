@@ -32,14 +32,12 @@
 
 **下载地址**（自动获取最新版）：
 ```
-# 方式 1: 直接下载（文件名不带版本号）
 https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-Windows.zip
-
-# 方式 2: 访问 Release 页面选择版本
-https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 ```
 
-**说明**: 使用 `latest` 链接会自动下载最新版本，无需手动更新链接
+**说明**: 
+- 文件名: `WarpClient-Windows.zip`
+- 使用 `latest` 链接自动下载最新版本
 
 **新特性**：
 - 🌟 **带炫酷图标的 EXE**
@@ -64,14 +62,13 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 
 **下载地址**（自动获取最新版）：
 ```
-# 方式 1: 直接下载
 https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel.dmg
-
-# 方式 2: 访问 Release 页面
-https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 ```
 
-**说明**: 使用 `latest` 链接会自动下载最新版本，无需手动更新链接
+**说明**: 
+- 文件名: `WarpClient-macOS-Intel.dmg`
+- 适用于 **macOS 13.0+** (Intel 芯片)
+- macOS 12 及以下请看 Q1 或 Q8
 
 **新特性**：
 - 🌟 **专业 DMG 安装器** - 双击挂载，拖拽安装
@@ -99,14 +96,13 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 
 **下载地址**（自动获取最新版）：
 ```
-# 方式 1: 直接下载
 https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-M1.dmg
-
-# 方式 2: 访问 Release 页面
-https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 ```
 
-**说明**: 使用 `latest` 链接会自动下载最新版本，无需手动更新链接
+**说明**: 
+- 文件名: `WarpClient-macOS-M1.dmg`
+- 适用于 **macOS 11.0+** (Apple Silicon: M1/M2/M3/M4)
+- 原生 ARM 编译，性能最优
 
 **新特性**：
 - 🌟 **专业 DMG 安装器** - 原生 Apple Silicon 支持
@@ -170,20 +166,26 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 
 ### macOS 用户（新安装方式）
 
-#### 1. 下载并打开 DMG
+#### 1. 下载 DMG
+
+根据你的系统选择：
+- **macOS 13+, Intel 芯片**: `WarpClient-macOS-Intel.dmg`
+- **macOS 11+, M 芯片**: `WarpClient-macOS-M1.dmg`
+- **macOS 12 及以下**: 加入 QQ 群 **1067109752** 获取 `WarpClient-macOS-Intel-macOS12.dmg`
+
+#### 2. 打开 DMG
 ```bash
-# 双击下载的 .dmg 文件
-# DMG 会自动挂载
+# 双击 .dmg 文件，DMG 会自动挂载
 ```
 
-#### 2. 拖拽安装
+#### 3. 拖拽安装
 ```
 1. 打开 DMG 窗口
 2. 将 WarpClient.app 拖拽到 Applications 文件夹
 3. 完成安装！
 ```
 
-#### 3. 首次运行
+#### 4. 首次运行
 ```bash
 # 方式 1: 从 Applications 文件夹打开
 # 找到 WarpClient.app，右键 → 打开（仅首次需要）
@@ -192,7 +194,7 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 xattr -d com.apple.quarantine /Applications/WarpClient.app
 ```
 
-#### 4. 使用步骤
+#### 5. 使用步骤
 ```
 1. 启动 WarpClient.app
 2. 填写服务器地址和邮箱（或使用默认配置）
