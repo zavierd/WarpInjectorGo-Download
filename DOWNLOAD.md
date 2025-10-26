@@ -87,7 +87,8 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest
 ```
 
 **系统要求**：
-- macOS 10.13+ (Intel 芯片)
+- ✅ macOS 13.0+ (Intel 芯片)
+- ⚠️ macOS 12 及以下：加入 QQ 群获取兼容版本（群号：1067109752）
 - 首次运行可能需要右键 → 打开
 
 ---
@@ -258,10 +259,16 @@ xattr -d com.apple.quarantine /Applications/WarpClient.app
 
 ## 🔧 常见问题
 
-### Q1: Windows 首次启动失败？
+### Q1: macOS 12 及以下版本如何获取？
+**A**: 加入 QQ 群获取兼容版本
+- 群号：**1067109752**
+- 提供 macOS 10.13 - 12.x 兼容版本
+- 或联系管理员单独获取
+
+### Q2: Windows 首次启动失败？
 **A**: 必须"以管理员身份运行"，用于安装系统级证书
 
-### Q2: macOS 提示"无法打开"？
+### Q3: macOS 提示"无法打开"？
 **A**: 首次打开需要：
 ```bash
 # 方式 1: 右键 → 打开（推荐）
@@ -269,7 +276,7 @@ xattr -d com.apple.quarantine /Applications/WarpClient.app
 xattr -d com.apple.quarantine /Applications/WarpClient.app
 ```
 
-### Q3: macOS 如何卸载？
+### Q4: macOS 如何卸载？
 **A**: 
 ```bash
 # 1. 删除应用
@@ -279,22 +286,22 @@ rm -rf /Applications/WarpClient.app
 # 在系统钥匙串中搜索 "Warp Injector"并删除
 ```
 
-### Q4: 激活失败？
+### Q5: 激活失败？
 **A**: 检查：
 - 服务器地址是否正确
 - 网络连接是否正常
 - 邮箱格式是否正确
 
-### Q5: 如何清理所有数据？
+### Q6: 如何清理所有数据？
 **A**: 使用隐藏清理功能：
 1. 快速点击底部"作者 zavier"3次
 2. 确认清理
 3. 重启 Warp 客户端
 
-### Q6: 许可证过期了怎么办？
+### Q7: 许可证过期了怎么办？
 **A**: 点击"刷新有效期"按钮，同步管理员延期的最新状态
 
-### Q7: Windows 图标显示问题？
+### Q8: Windows 图标显示问题？
 **A**: v3.0.0+ 版本已内嵌图标，如果看不到：
 - 检查是否下载的最新版本
 - 尝试刷新文件资源管理器
