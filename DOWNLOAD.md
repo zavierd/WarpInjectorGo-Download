@@ -57,14 +57,14 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 
 #### macOS 12 用户
 
-[![下载 macOS 12](https://img.shields.io/badge/macOS_12-下载-gray?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel-macOS12.dmg)
+[![下载 macOS 12](https://img.shields.io/badge/macOS_Intel_12+-下载-gray?style=for-the-badge&logo=apple)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel-12.dmg)
 
 **下载地址**：
 ```
-https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel-macOS12.dmg
+https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/WarpClient-macOS-Intel-12.dmg
 ```
 
-**适用于**: macOS 12.x 及以下 (Intel 芯片)
+**适用于**: macOS 12.0+ (Intel 芯片)
 
 
 ---
@@ -101,7 +101,7 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 **使用步骤**:
 1. 根据系统版本下载对应的 DMG
    - macOS 13+: Intel 或 M1 版本
-   - macOS 12: macOS12 版本
+   - macOS 12: Intel 12+ 版本
 2. 双击 DMG，拖拽 `WarpClient.app` 到 `Applications` 文件夹
 3. **右键 WarpClient → 打开**（首次需要，绕过安全检查）
 4. 填写服务器地址和邮箱
@@ -115,7 +115,10 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 ### v3.0.0 (2025-10-26)
 - 🎨 专业应用图标和 DMG 安装器
 - 📦 极简打包，移除冗余文件
-- 🔧 macOS 提供 13+ 和 12 两个版本
+- 🧹 优化清理功能，保留用户数据目录
+- 🔧 macOS 提供 13+ 和 12+ 两个版本
+- 🔄 移除数据库权限检查（新版 Warp 不再使用 SQLite）
+- 📝 文件命名统一为 Intel 12+
 
 ### v2.5.3 (2025-10-25)
 - 日志优化和性能改进
@@ -128,7 +131,7 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 **A**: 查看你的系统版本（系统偏好设置 → 关于本机）
 - **macOS 13.0+, Intel**: 下载 `WarpClient-macOS-Intel.dmg`
 - **macOS 11.0+, M 芯片**: 下载 `WarpClient-macOS-M1.dmg`
-- **macOS 12 及以下, Intel**: 下载 `WarpClient-macOS-Intel-macOS12.dmg`
+- **macOS 12.0+, Intel**: 下载 `WarpClient-macOS-Intel-12.dmg`
 
 所有版本都在 Release 页面直接下载，无需加群
 
@@ -173,10 +176,10 @@ rm -rf /Applications/WarpClient.app
 ### Q7: 许可证过期了怎么办？
 **A**: 点击"刷新有效期"按钮，同步管理员延期的最新状态
 
-### Q8: macOS 12 版本和 macOS 13 版本有什么区别？
+### Q8: macOS Intel 12+ 版本和 macOS 13+ 版本有什么区别？
 **A**: 
-- **macOS12 版本**: 兼容 macOS 10.13 - 12.x（老系统专用）
-- **macOS 13 版本**: 只支持 macOS 13.0+（新系统优化）
+- **Intel 12+ 版本**: 支持 macOS 12.0+（老系统用户专用）
+- **Intel 13+ 版本**: 只支持 macOS 13.0+（新系统优化）
 - 功能完全一样，只是系统兼容性不同
 - 下载时根据自己的系统版本选择
 
