@@ -2,9 +2,9 @@
 
 > [![最新版本](https://img.shields.io/github/v/release/zavierd/WarpInjectorGo-Download)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest) | [![下载次数](https://img.shields.io/github/downloads/zavierd/WarpInjectorGo-Download/total)](https://github.com/zavierd/WarpInjectorGo-Download/releases)
 
-## 🎉 v3.0.0 现代化打包系统
+## 🎉 v3.1.0 智能证书安装 + 清理优化
 
-**重大升级 - 全新打包体验**：
+**重大升级 - 全新体验**：
 
 ### 🎨 专业应用图标
 - ✅ 炫酷宇宙猫咪图标 🐱✨
@@ -112,13 +112,16 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 
 ## 🆕 版本历史
 
+### v3.1.0 (2025-10-27)
+- 🎯 **Windows 智能证书安装** - 普通用户也能安装（自动使用用户存储区）
+- 🧹 **清理功能优化** - 保留用户数据目录，只清理凭据和缓存
+- 📝 清理对话框文案更新 - 明确说明保留用户数据
+- 🔧 macOS 提供 13+ 和 Intel 12+ 两个版本
+- 🔄 移除数据库权限检查（新版 Warp 不再使用 SQLite）
+
 ### v3.0.0 (2025-10-26)
 - 🎨 专业应用图标和 DMG 安装器
 - 📦 极简打包，移除冗余文件
-- 🧹 优化清理功能，保留用户数据目录
-- 🔧 macOS 提供 13+ 和 12+ 两个版本
-- 🔄 移除数据库权限检查（新版 Warp 不再使用 SQLite）
-- 📝 文件命名统一为 Intel 12+
 
 ### v2.5.3 (2025-10-25)
 - 日志优化和性能改进
