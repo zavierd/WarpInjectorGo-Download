@@ -1,10 +1,34 @@
-# 📥 Warp Token Injector - 下载页面
+# 📥 ZenGate - 下载页面
 
 > [![最新版本](https://img.shields.io/github/v/release/zavierd/WarpInjectorGo-Download)](https://github.com/zavierd/WarpInjectorGo-Download/releases/latest) | [![下载次数](https://img.shields.io/github/downloads/zavierd/WarpInjectorGo-Download/total)](https://github.com/zavierd/WarpInjectorGo-Download/releases)
 
-## 🎉 v3.1.0 智能证书安装 + 清理优化
+## 🎉 v3.2.0 ZenGate - 禅意之门
 
-**重大升级 - 全新体验**：
+**重大升级 - 品牌焕新**：
+
+### 🚪 品牌升级
+- ✨ **全新命名**: Warp Injector → **ZenGate**（禅意之门）
+- 🎨 **设计理念**: 简洁、优雅、流畅的代理体验
+- 🏷️ **统一品牌**: 窗口标题、界面标题全面更新
+
+### 🔐 证书持久化修复
+- ✅ **根本问题解决**: 修复 macOS 证书信任状态随时间丢失
+- ✅ **完整 X.509 结构**: 添加 Subject Key Identifier 等关键字段
+- ✅ **对标专业工具**: 证书结构与 Reqable CA 一致
+- ✅ **永久有效**: 系统重启后信任状态保持
+
+### 🧹 选择性清理
+- ✨ **全新清理界面**: 5个独立清理选项，可自由组合
+- ☑️ 清理 Warp 钥匙串数据
+- ☑️ 清理代理证书
+- ☑️ 清理 Warp 配置文件
+- ☑️ 清理缓存文件
+- ☑️ 清理日志文件
+
+### 🎨 UI 优化
+- **版本信息居中**: `版本 v3.2.0 | 清理`
+- **文字链接**: 清理改为文字链接，鼠标悬停变色
+- **界面简化**: 删除冗余提示，更简洁
 
 ### 🎨 专业应用图标
 - ✅ 炫酷宇宙猫咪图标 🐱✨
@@ -112,6 +136,13 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 
 ## 🆕 版本历史
 
+### v3.2.0 (2025-10-29) ⭐ 最新版
+- 🚪 **品牌升级**: Warp Injector → ZenGate（禅意之门）
+- 🔐 **证书持久化修复**: 添加 Subject/Authority Key Identifier，解决信任状态丢失
+- 🧹 **选择性清理**: 5个独立清理选项，可自由组合
+- 🎨 **UI优化**: 版本信息居中，清理改为文字链接
+- 📝 **技术文档**: 新增证书修复详细说明
+
 ### v3.1.0 (2025-10-27)
 - 🎯 **Windows 智能证书安装** - 普通用户也能安装（自动使用用户存储区）
 - 🧹 **清理功能优化** - 保留用户数据目录，只清理凭据和缓存
@@ -170,11 +201,14 @@ rm -rf /Applications/WarpClient.app
 - 网络连接是否正常
 - 邮箱格式是否正确
 
-### Q6: 如何清理所有数据？
-**A**: 使用隐藏清理功能：
-1. 快速点击底部"作者 zavier"3次
-2. 确认清理
-3. 重启 Warp 客户端
+### Q6: 如何清理数据？
+**A**: v3.2.0+ 新增选择性清理：
+1. 点击底部 "清理" 文字链接
+2. 勾选需要清理的项目（5个选项可独立选择）
+3. 点击"执行清理"
+4. 自动关闭 Warp 并清理，用户数据保留
+
+**旧版本**: 快速点击底部"作者 zavier"3次触发隐藏清理
 
 ### Q7: 许可证过期了怎么办？
 **A**: 点击"刷新有效期"按钮，同步管理员延期的最新状态

@@ -1,6 +1,6 @@
-# Warp Token Injector - 官方下载页面
+# ZenGate - 官方下载页面
 
-> 🎉 Warp AI 客户端代理工具 - 让你的 Warp 客户端使用自定义账号
+> 🚪 优雅的 Warp AI 代理网关 - 禅意之门，通往自由网络
 
 ---
 
