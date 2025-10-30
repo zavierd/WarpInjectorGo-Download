@@ -177,11 +177,6 @@ https://github.com/zavierd/WarpInjectorGo-Download/releases/latest/download/Warp
 xattr -d com.apple.quarantine /Applications/WarpClient.app
 ```
 
-**如果仍然提示系统版本不兼容**:
-- 确认你的 macOS 版本（系统偏好设置 → 关于本机）
-- macOS 13+ 下载 Intel 或 M1 版本
-- macOS 12 及以下加入 QQ 群：**1067109752**
-
 ### Q3: Windows 首次启动失败？
 **A**: 必须"以管理员身份运行"，用于安装系统级证书
 
